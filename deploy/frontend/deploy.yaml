@@ -31,11 +31,11 @@ spec:
         - containerPort: 8086
         resources:
           limits:
-            cpu: "0.5"
-            memory: "500Mi"
+            cpu: "0.2"
+            memory: "200Mi"
           requests:
-            cpu: "0.4"
-            memory: "400Mi"
+            cpu: "0.2"
+            memory: "200Mi"
 
 
 
